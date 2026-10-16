@@ -36,9 +36,6 @@ ecommerce-sales-dashboard/
 ├── DAX Foundations(1).xmind
 └── screenshots/
     └── dashboard-overview.png
-```
-
-> The `screenshots/dashboard-overview.png` file is a suggested location. Add a screenshot of your actual report and update the filename/path if needed. Remove any filenames above that you do not include in your repository.
 
 ## Dataset Overview
 
@@ -65,8 +62,6 @@ Contains sales-detail information described in the project documentation, includ
 - Category
 - Sub-Category
 - Payment Mode
-
-**Data note:** Check the source data before publishing. Remove or anonymize personal/customer information if it is not intended to be public.
 
 ## Dashboard KPIs
 
@@ -99,8 +94,6 @@ The supplied project PDF lists these observations:
 - Profit dips from May to August, suggesting a possible seasonal decline.
 - Harjeet, Mohan, and Madam Mohan are listed among customers contributing substantially to sales.
 
-> These are findings stated in the project documentation. Validate them against the Power BI report and source data before presenting them as verified conclusions.
-
 ## How to Open the Project
 
 1. Download or clone this repository.
@@ -111,42 +104,17 @@ The supplied project PDF lists these observations:
 
 ## Screenshots
 
-Add screenshots of the actual Power BI report to a `screenshots/` folder and embed them here. For example, after adding `screenshots/dashboard-overview.png`, use:
-
-```markdown
-![E-commerce Sales Dashboard](screenshots/dashboard-overview.png)
-```
-
-Do not leave the placeholder image reference unless the screenshot file exists in the repository.
+Add screenshots of the actual Power BI report to a `screenshots/` folder and embed them here. 
 
 ## Deployment / Viewing Online
 
 The `.pbix` file can be stored in GitHub for download, but GitHub does not render it as an interactive Power BI report.
 
-To publish the report:
-1. Open the file in Power BI Desktop and sign in.
-2. Select **Home → Publish** and choose a workspace.
-3. Open the report in [Power BI Service](https://app.powerbi.com/).
-4. Share it using an appropriate permission-controlled option.
-
-If you use **Publish to web**, the report and its underlying data may be accessible to anyone on the internet. Only use it when the data is safe for public disclosure and your account/workspace permits the feature.
-
-## Future Improvements
-
-- Add dashboard screenshots and a short project walkthrough.
-- Document the data model and table relationships.
-- Add a `DAX_Measures.md` file with the actual measures used.
-- Add a `Data_Dictionary.md` file describing columns and data types.
-- Validate KPI definitions and reported findings.
-- Add data refresh and report usage instructions, if applicable.
-
 ## Author
 
-**Your Name**  
+Gokul Katwale  
 Aspiring Data Analyst | Power BI | Excel | SQL
 
-Update this section with your name and the skills you want to highlight.
 
 ## License
-
-No license is specified yet. If you want others to reuse the project, choose and add an appropriate open-source license. Otherwise, leave this section out or state your intended usage terms clearly.
+MIT License
